@@ -1,0 +1,18 @@
+.banner {
+	background-color: #5F999C;
+	color: white;
+	padding: 40px 0px 150px 0px;
+	background-size: cover;
+	background-position: center;
+}
+
+.banner h1 {
+	color: white;
+}
+
+.banner h2 {
+	opacity: 0.8;
+	color: white;
+	font-weight: lighter;
+	margin: 0px 0px 40px 0px;
+}

@@ -1,0 +1,62 @@
+/*Importing Google Fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Abel|Shadows+Into+Light+Two&display=swap');
+
+/*Importing all the CSS files*/
+
+@import url('components/container.css');
+@import url('components/avatar.css');
+@import url('components/button.css');
+@import url('components/banner.css');
+@import url('components/card.css');
+
+/*General style rules for fonts and colors*/
+
+body {
+	font-family: 'Abel', sans-serif;
+	font-size: 18px ;
+	line-height: 1.5 ;
+	color: #7A5C58;
+	margin: 0;
+}
+
+h1, h2 {
+	color: #3F0D12;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+h1 {
+	font-size: 35px;
+}
+
+h2 {
+	font-size: 28px;
+	font-family: 'Abel', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color : #7A5C58;
+}
+
+a:hover {
+	color : rgb(54,0,54);
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
